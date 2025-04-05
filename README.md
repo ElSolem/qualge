@@ -24,11 +24,11 @@ The core idea revolves around a **quantum-inspired initialization method** that 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/quantum-algebra-pathfinding.git
+git clone https://github.com/ElSolem/qualge
 
-pip install -r requirements.txt
+pip install -r numpy matplotlib cpython
 
-python pathfinder.py
+qastar_quantum_init_complex.py
 ```
 ---
 
