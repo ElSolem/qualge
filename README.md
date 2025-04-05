@@ -25,9 +25,11 @@ The core idea revolves around a **quantum-inspired initialization method** that 
 
 ```bash
 git clone https://github.com/ElSolem/qualge
-
+```
+```
 pip install -r numpy matplotlib cpython
-
+```
+```
 qastar_quantum_init_complex.py
 ```
 ---
