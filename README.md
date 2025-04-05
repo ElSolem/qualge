@@ -25,26 +25,20 @@ The core idea revolves around a **quantum-inspired initialization method** that 
 
 ```bash
 git clone https://github.com/yourusername/quantum-algebra-pathfinding.git
-2. Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
-3. Run the Pathfinder
-bash
-Copy
-Edit
+
 python pathfinder.py
-📈 Explore Visualizations
+```
+---
+
+## 📈 Explore Visualizations
+
 The repository includes scripts to generate visual representations of quantum algebra's influence on pathfinding.
 
-🔗 Links to Interactive Graphs
-[Desmos Graph 1](https://www.desmos.com/calculator/09puuicvno)
+### 🔗 Links to Interactive Graphs
 
-[GeoGebra Graph 1](https://www.geogebra.org/calculator/vgykk8nw)
+- [Desmos Graph 1](https://www.desmos.com/calculator/09puuicvno)  
+- [GeoGebra Graph 1](https://www.geogebra.org/calculator/vgykk8nw)
 
-Use these to explore how the quantum equality behaves in different scenarios and how it influences the pathfinding process.
-
-📄 License
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
+Use these to explore how the **quantum equality** behaves in different scenarios and how it influences the pathfinding process.
