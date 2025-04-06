@@ -44,5 +44,6 @@ The repository includes scripts to generate visual representations of quantum al
 - [GeoGebra Graph 1](https://www.geogebra.org/calculator/vgykk8nw)
 - [GeoGebra Graph 2](https://www.geogebra.org/calculator/bkbddeec)
 - ggb files can be used in Geogebra
+- [Link to paper on subject](https://zenodo.org/records/15163031?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjM5ZGZlZmYyLWE0NjMtNGMzYi1iYWZkLThkOTllMDI5YjU0MyIsImRhdGEiOnt9LCJyYW5kb20iOiJkYWNiZTg2NjkzZGUyNjhjYmMxYmFhNmFjZGJkYjkzZSJ9.ARw_xZ_7bp69cWUFUeB2R8vpPRrK4HVnYPaB2AeSwv7uMlIqnBMTRh4j6DFuFUcUQBVmrmcgtWci82-x8zQ-7Q)
 
 Use these to explore how the **quantum equality** behaves in different scenarios and how it influences the pathfinding process.
