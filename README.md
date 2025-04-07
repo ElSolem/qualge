@@ -8,7 +8,7 @@ This repository showcases an example library for a **quantum-inspired pathfindin
 
 This project demonstrates how **quantum algebraic principles** can be applied to classical pathfinding algorithms—such as the **A\*** algorithm—to improve scalability and efficiency.
 
-The core idea revolves around a **quantum-inspired initialization method** that prepares the search space dynamically, leading to enhanced performance, especially in large-scale grid environments.
+The core idea revolves around a **quantum initialization method** that prepares the search space dynamically, leading to enhanced performance, especially in large-scale grid environments.
 
 ### 📦 What's Included
 
