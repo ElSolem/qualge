@@ -41,7 +41,7 @@ The repository includes scripts to generate visual representations of quantum al
 ### 🔗 Links to Interactive Graphs
 
 - [Desmos Graph 1](https://www.desmos.com/calculator/09puuicvno)
-- [Desmos Graph 2](https://www.desmos.com/calculator/hhwwuld5ur) Link to show how the quantum dimensions are represented by the equalities
+- [Desmos Graph 2](https://www.desmos.com/calculator/hhwwuld5ur)Link to show how the quantum dimensions are represented by the equalities
 - [GeoGebra Graph 1](https://www.geogebra.org/calculator/vgykk8nw)
 - [GeoGebra Graph 2](https://www.geogebra.org/calculator/bkbddeec)
 - ggb files can be used in Geogebra
