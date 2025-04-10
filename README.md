@@ -53,4 +53,6 @@ Use these to explore how the **quantum equality** behaves in different scenarios
 - [Sidis Checkerboard 2D](https://www.shadertoy.com/view/cdVBDt) Shadertoy
 - [Sidis Checkerboard 3D](https://cineshader.com/view/cdVBDt) Cineshader
 
+- [Gaussian Depth Sort](https://www.shadertoy.com/view/t32GzK) This shader was forked to demo optimization through quantum equalities. 
+
 Use these to view how it can be applied to 2D and 3D graphics with no variation in code, only context. 
