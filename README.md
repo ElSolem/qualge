@@ -53,4 +53,4 @@ Use these to explore how the **quantum equality** behaves in different scenarios
 - [Sidis Checkerboard 2D](https://www.shadertoy.com/view/cdVBDt) Shadertoy
 - [Sidis Checkerboard 3D](https://cineshader.com/view/cdVBDt) Cineshader
 
-Use these to view how it can be applied to 2D and 3D graphics with no variation in code, onky context. 
+Use these to view how it can be applied to 2D and 3D graphics with no variation in code, only context. 
