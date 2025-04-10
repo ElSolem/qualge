@@ -48,3 +48,9 @@ The repository includes scripts to generate visual representations of quantum al
 - [Link to paper on subject](https://zenodo.org/records/15163031?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjM5ZGZlZmYyLWE0NjMtNGMzYi1iYWZkLThkOTllMDI5YjU0MyIsImRhdGEiOnt9LCJyYW5kb20iOiJkYWNiZTg2NjkzZGUyNjhjYmMxYmFhNmFjZGJkYjkzZSJ9.ARw_xZ_7bp69cWUFUeB2R8vpPRrK4HVnYPaB2AeSwv7uMlIqnBMTRh4j6DFuFUcUQBVmrmcgtWci82-x8zQ-7Q)
 
 Use these to explore how the **quantum equality** behaves in different scenarios and how it influences the pathfinding process.
+
+### 🔗 Links to Shader Visuals
+- [Sidis Checkerboard 2D](https://www.shadertoy.com/view/cdVBDt) Shadertoy
+- [Sidis Checkerboard 3D](https://cineshader.com/view/cdVBDt) Cineshader
+
+Use these to view how it can be applied to 2D and 3D graphics with no variation in code, onky context. 
