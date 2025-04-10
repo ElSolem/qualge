@@ -8,7 +8,7 @@ This repository showcases an example library for a **quantum-inspired pathfindin
 
 This project demonstrates how **quantum algebraic principles** can be applied to classical pathfinding algorithms—such as the **A\*** algorithm—to improve scalability and efficiency.
 
-The core idea revolves around a **quantum-inspired initialization method** that prepares the search space dynamically, leading to enhanced performance, especially in large-scale grid environments.
+The core idea revolves around a **quantum initialization method** that prepares the search space dynamically, leading to enhanced performance, especially in large-scale grid environments.
 
 ### 📦 What's Included
 
@@ -40,7 +40,19 @@ The repository includes scripts to generate visual representations of quantum al
 
 ### 🔗 Links to Interactive Graphs
 
-- [Desmos Graph 1](https://www.desmos.com/calculator/09puuicvno)  
+- [Desmos Graph 1](https://www.desmos.com/calculator/09puuicvno)
+- [Desmos Graph 2](https://www.desmos.com/calculator/axybormp2u) Link to show how the quantum dimensions are represented by the equalities
 - [GeoGebra Graph 1](https://www.geogebra.org/calculator/vgykk8nw)
+- [GeoGebra Graph 2](https://www.geogebra.org/calculator/bkbddeec)
+- ggb files can be used in Geogebra
+- [Link to paper on subject](https://zenodo.org/records/15163031?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjM5ZGZlZmYyLWE0NjMtNGMzYi1iYWZkLThkOTllMDI5YjU0MyIsImRhdGEiOnt9LCJyYW5kb20iOiJkYWNiZTg2NjkzZGUyNjhjYmMxYmFhNmFjZGJkYjkzZSJ9.ARw_xZ_7bp69cWUFUeB2R8vpPRrK4HVnYPaB2AeSwv7uMlIqnBMTRh4j6DFuFUcUQBVmrmcgtWci82-x8zQ-7Q)
 
 Use these to explore how the **quantum equality** behaves in different scenarios and how it influences the pathfinding process.
+
+### 🔗 Links to Shader Visuals
+- [Sidis Checkerboard 2D](https://www.shadertoy.com/view/cdVBDt) Shadertoy
+- [Sidis Checkerboard 3D](https://cineshader.com/view/cdVBDt) Cineshader
+
+- [Gaussian Depth Sort](https://www.shadertoy.com/view/t32GzK) This shader was forked to demo optimization through quantum equalities. 
+
+Use these to view how it can be applied to 2D and 3D graphics with no variation in code, only context. 
