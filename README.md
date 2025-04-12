@@ -1,4 +1,4 @@
-# Quantum Algebra Pathfinding Example Library
+# Quantum Algebra Example Library
 
 This repository showcases an example library for a **quantum-inspired pathfinding system**, including the implementation of the quantum algebraic approach and related visualizations.
 
