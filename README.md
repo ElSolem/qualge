@@ -73,5 +73,8 @@ Use these to explore how the **quantum equality** behaves in different scenarios
 ### Chaos to Order Flow
 ![Flow Grid](images/polymetron_flow_thrones.png)
 
+### Desmos Graph of Polymetron Cube
+![Polymetron Cube](images/desmos_graph.png)
+
 These symbolic renderings demonstrate the spatial and temporal logic structure of the quantum algebra pathfinding system.
 
