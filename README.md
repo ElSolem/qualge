@@ -14,6 +14,10 @@ The core idea revolves around a **quantum initialization method** that prepares 
 
 - **🔍 Pathfinder Code**: Python implementation of the quantum algebraic pathfinding method.
 - **📊 Graph Visualizations**: Plots and graphs (via `matplotlib`, `numpy`, etc.) to visualize the impact of quantum equality on pathfinding behavior.
+- **🖼️ New Symbolic Visuals**: A suite of 2D and 3D plots representing the symbolic architecture of quantum algebra structures, including:
+  - Polymetron Grid (Flat)
+  - Inverse Grid (3D structure)
+  - Chaos-to-Order Flow with Thrones (Ikigai core logic)
 
 > ⚠️ This project is intended as a **demonstration only** and is not an actively maintained development effort.
 
@@ -26,33 +30,51 @@ The core idea revolves around a **quantum initialization method** that prepares 
 ```bash
 git clone https://github.com/ElSolem/qualge
 ```
+```bash
+pip install -r requirements.txt
 ```
-pip install -r numpy matplotlib cpython
+```bash
+python qastar_quantum_init_complex.py
 ```
-```
-qastar_quantum_init_complex.py
-```
+
 ---
 
 ## 📈 Explore Visualizations
 
-The repository includes scripts to generate visual representations of quantum algebra's influence on pathfinding.
+The repository includes scripts to generate visual representations of quantum algebra's influence on pathfinding and symbolic computation.
 
 ### 🔗 Links to Interactive Graphs
 
 - [Desmos Graph 1](https://www.desmos.com/calculator/09puuicvno)
-- [Desmos Graph 2](https://www.desmos.com/calculator/axybormp2u) Link to show how the quantum dimensions are represented by the equalities
+- [Desmos Graph 2](https://www.desmos.com/calculator/axybormp2u) — How quantum dimensions are represented by equalities
+- [Desmos Final Graph: Polymetron Engine](https://www.desmos.com/calculator/s4sr4zwi1o) — Full layered system of Thrones, Seats, Flow, and Inversion
 - [GeoGebra Graph 1](https://www.geogebra.org/calculator/vgykk8nw)
 - [GeoGebra Graph 2](https://www.geogebra.org/calculator/bkbddeec)
-- ggb files can be used in Geogebra
-- [Link to paper on subject](https://zenodo.org/records/15163031?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjM5ZGZlZmYyLWE0NjMtNGMzYi1iYWZkLThkOTllMDI5YjU0MyIsImRhdGEiOnt9LCJyYW5kb20iOiJkYWNiZTg2NjkzZGUyNjhjYmMxYmFhNmFjZGJkYjkzZSJ9.ARw_xZ_7bp69cWUFUeB2R8vpPRrK4HVnYPaB2AeSwv7uMlIqnBMTRh4j6DFuFUcUQBVmrmcgtWci82-x8zQ-7Q)
+- [Paper on subject](https://zenodo.org/records/15163031)
 
-Use these to explore how the **quantum equality** behaves in different scenarios and how it influences the pathfinding process.
+Use these to explore how the **quantum equality** behaves in different scenarios and how it influences symbolic pathfinding and computation.
 
 ### 🔗 Links to Shader Visuals
-- [Sidis Checkerboard 2D](https://www.shadertoy.com/view/cdVBDt) Shadertoy
-- [Sidis Checkerboard 3D](https://cineshader.com/view/cdVBDt) Cineshader
 
-- [Gaussian Depth Sort](https://www.shadertoy.com/view/t32GzK) This shader was forked to demo optimization through quantum equalities. 
+- [Sidis Checkerboard 2D](https://www.shadertoy.com/view/cdVBDt) — ShaderToy
+- [Sidis Checkerboard 3D](https://cineshader.com/view/cdVBDt) — CineShader
+- [Gaussian Depth Sort](https://www.shadertoy.com/view/t32GzK) — Shader fork for quantum optimization demo
 
-Use these to view how it can be applied to 2D and 3D graphics with no variation in code, only context. 
+---
+
+## 🌌 Featured Images
+
+### Polymetron Flat Grid
+![Flat Grid](images/polymetron_flat.png)
+
+### Polymetron Inverse 3D
+![3D Inverse](images/polymetron_inverse_3d.png)
+
+### Chaos to Order Flow
+![Flow Grid](images/polymetron_flow_thrones.png)
+
+### Desmos Graph of Polymetron Cube
+![Polymetron Cube](images/desmos_graph.png)
+
+These symbolic renderings demonstrate the spatial and temporal logic structure of the quantum algebra pathfinding system.
+
