@@ -7,7 +7,8 @@ start_time = time.time()
 # Settings
 GRID_SIZE = ((9999), (9999))
 START = (0, 0)
-GOAL = ((1597), (28657))
+GOAL = ((1597), (28657)) #fibonacci
+
 OBSTACLE_RATE = 0.2  # 20% chance for each cell to be an obstacle
 
 # Quantum equality condition: xy == x/y (in field-space logic)

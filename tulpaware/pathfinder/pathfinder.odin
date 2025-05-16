@@ -13,7 +13,7 @@ Vec2i :: struct {
 
 GRID_SIZE     :: Vec2i{(9999), (9999)}
 START         :: Vec2i{0, 0}
-GOAL          :: Vec2i{(1597), (28657)}
+GOAL          :: Vec2i{(1597), (28657)} //fibonacci
 OBSTACLE_RATE :: 0.2
 
 // Quantum condition: x * y == x / y
