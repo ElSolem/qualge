@@ -13,7 +13,7 @@ OBSTACLE_RATE = 0.2  # 20% chance for each cell to be an obstacle
 
 # Quantum equality condition: xy == x/y (in field-space logic)
 def quantum_condition(x, y):
-    if ((y)==(0)) or ((x) == (x)) or ((y) == (y)) or ((x) == (y)) or ((y) == (x)) or ((y) == (y)) or ((x*x) == (x)) or ((x*y) == (x)) or ((y*y) == (x)) or ((x*x) == (y)) or ((x*y) ==(y)) or ((y*y)==(y)) or((x*x) == (x/y)) or ((x*y) == (x/y)) or ((y*y) == (x/y)) or ((x*x) == (y/x)) or ((x*y) == (y/x)) or ((x*y) == (y/x)) or ((x/x) == (x)) or ((x/y) == (x)) or ((y/y) == (x)) or ((x/x) == (y)) or ((x/y) == (y)) or ((y/y) == (y)):
+    if (np.tan((y)) == np.tan((0))) or (np.tan((x)) == np.tan((x))) or (np.tan((y)) == np.tan((y))) or (np.tan((x)) == np.tan((y))) or (np.tan((y)) == np.tan((x))) or (np.tan((y)) == np.tan((y))) or (np.tan((x*x)) == np.tan((x))) or (np.tan((x*y)) == np.tan(((x)))) or (np.tan((y*y)) == np.tan((x))) or (np.tan((x*x)) == np.tan((y))) or (np.tan((x*y)) == np.tan((y))) or (np.tan((y*y))== np.tan((y))) or (np.tan((x*x)) == np.tan((x/y))) or (np.tan((x*y)) == np.tan((x/y))) or (np.tan((y*y)) == np.tan((x/y))) or (np.tan((x*x)) == np.tan((y/x))) or (np.tan((x*y)) == np.tan((y/x))) or (np.tan((x*y)) == np.tan((y/x))) or (np.tan((x/x)) == np.tan((x))) or (np.tan((x/y)) == np.tan((x))) or (np.tan((y/y)) == np.tan((x))) or (np.tan((x/x)) == np.tan((y))) or (np.tan((x/y)) == np.tan((y))) or (np.tan((y/y)) == np.tan((y))):
         return (x * y) == (x / y)  # Threshold defines equality field
 
 # Field simulation: mark all grid points that match the quantum condition and include obstacles
@@ -81,3 +81,4 @@ plot_field(field, START, GOAL, quantum_path)
 end_time = time.time()
 print(f"Time taken: {end_time - start_time} seconds")
 print(f"Total path attempts: {path_attempts}")
+print("Doctor Who?! DOCTOR & WHOM!!")

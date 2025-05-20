@@ -6,6 +6,7 @@ import "core:time"
 import "core:fmt"
 import "core:mem"
 
+/*
 Vec2i :: struct {
     x: int,
     y: int,
@@ -19,8 +20,8 @@ OBSTACLE_RATE :: 0.2
 // Quantum condition: x * y == x / y
 @(test)
 quantum_condition :: proc(x: int, y: int) -> bool {
-    // 
-    if ((x) == (0)) || ((y) == (0)) || ((x) == (x)) || ((x)==(y)) || ((y)==(y)) || ((y)==(x)) || ((x*x)==(0)) || ((x*y)==(0)) || ((y*y)==(0)) || ((x*x)== (x)) || ((x*x)==(y)) || ((x*y)==(x)) || ((x*y)==(y)) || ((y*y)==(x)) || ((y*y)==(y)) || ((x*x)==(x*x)) || ((x*x)==(x*y)) || ((x*x)==(y*y)) || ((x*y)==(x*y)) || ((x*y)==(y*y)) || ((y*y)==(x*y)) || ((y*y)==(y*y)) || ((x*x)==(x/y)) || ((x*y)==(x/y)) || ((y*y)==(x/y)) {
+    // One          two         three       four        five        six         seven           eight       nine            ten         eleven      twelve              thirteen            fourteen            fifteen             sixteen             seventeen  
+    if (math.tan(f32(y)) == math.tan(f32(0))) || (math.tan(f32(x)) == math.tan(f32(x))) || (math.tan(f32(y)) == math.tan(f32(y))) || (math.tan(f32(x)) == math.tan(f32(y))) || (math.tan(f32(y)) == math.tan(f32(x))) || (math.tan(f32(y)) == math.tan(f32(y))) || (math.tan(f32(x*x)) == math.tan(f32(x))) || (math.tan(f32(x*y)) == math.tan(f32((x)))) || (math.tan(f32(y*y)) == math.tan(f32(x))) || (math.tan(f32(x*x)) == math.tan(f32(y))) || (math.tan(f32(x*y)) == math.tan(f32(y))) || (math.tan(f32(y*y))== math.tan(f32(y))) ||(math.tan(f32(x*x)) == math.tan(f32(x/y))) || (math.tan(f32(x*y)) == math.tan(f32(x/y))) || (math.tan(f32(y*y)) == math.tan(f32(x/y))) || (math.tan(f32(x*x)) == math.tan(f32(y/x))) || (math.tan(f32(x*y)) == math.tan(f32(y/x))) || (math.tan(f32(x*y)) == math.tan(f32(y/x))) || (math.tan(f32(x/x)) == math.tan(f32(x))) || (math.tan(f32(x/y)) == math.tan(f32(x))) || (math.tan(f32(y/y)) == math.tan(f32(x))) || (math.tan(f32(x/x)) == math.tan(f32(y))) || (math.tan(f32(x/y)) == math.tan(f32(y))) || (math.tan(f32(y/y)) == math.tan(f32(y))) {
         return true
     }
     return math.tan(f32(11111*x) * f32(11111*y)) == math.tan(f32(11111*x)/f32(11111*y))
@@ -86,34 +87,4 @@ quantum_trace :: proc(field: [dynamic][dynamic]int, start: Vec2i, goal: Vec2i, a
     }
 
     return path, path_attempts
-}
-
-@(test)
-main :: proc() {
-    allocator : ^mem.Allocator
-
-    t0 := time.now()
-    fmt.println("Generating quantum field...")
-
-    field := generate_quantum_field(GRID_SIZE, allocator)
-
-    fmt.println("Tracing path...")
-    path, attempts := quantum_trace(field, START, GOAL, allocator)
-
-    t1 := time.now()
-    dt := time.diff(t0, t1)
-
-    fmt.printf("Time taken: %.2f seconds\n", dt)
-    fmt.printf("Time taken: %.3f seconds\n", f64(dt) / f64(time.Millisecond) / 1000.0)
-    fmt.printf("Time taken: %.3f ms\n", f64(dt) / f64(time.Millisecond))
-    fmt.printf("Total path steps: %d\n", attempts)
-    fmt.printf("Path length: %d\n", len(path))
-
-    if len(path) > 0 {
-        fmt.printf("Start: (%d, %d)\n", path[0].x, path[0].y)
-        fmt.printf("End:   (%d, %d)\n", path[len(path)-1].x, path[len(path)-1].y)
-        fmt.println("Doctor Who?! Doctor & WHOM!!")
-    } else {
-        fmt.println("No path found.")
-    }
-}
+}*/
