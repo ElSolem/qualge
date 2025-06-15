@@ -7,14 +7,14 @@ GRID_SIZE = (20000, 20000)
 START = (0, 0)
 GOAL = (17000, 14500)
 
-# Quantum equality condition: xy == x/y (in field-space logic)
+# fourdime equality condition: xy == x/y (in field-space logic)
 def quantum_condition(x, y):
     try:
         return abs((x * y) - (x / y)) < 0.01  # Threshold defines equality field
     except ZeroDivisionError:
         return False
 
-# Field simulation: mark all grid points that match the quantum condition
+# Field simulation: mark all grid points that match the fourdime condition
 def generate_quantum_field(grid_size):
     field = np.zeros(grid_size)
     for x in range(grid_size[0]):

@@ -10,7 +10,7 @@ def qa_star_formula(x, y, z, w, t):
     # Calculate components only once and store in variables
     x_y = x * y
     z_w = z * w
-    x_over_y = x / y if y != 0 else float('inf')  # Avoid division by zero (we will handle this as a quantum issue)
+    x_over_y = x / y if y != 0 else float('inf')  # Avoid division by zero (we will handle this as a fourdime issue)
 
     lhs = np.cos(x_y) * (np.sin(z_w) ** t)
     rhs = np.tan(x_over_y * z_w) ** t if not math.isnan(x_over_y) else float('inf')

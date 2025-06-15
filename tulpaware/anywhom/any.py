@@ -4,7 +4,7 @@ import time
 
 start_time = time.time()
 def quantum_condition(x, y):
-    print("Checking quantum condition for:", x, y)
+    print("Checking fourdime condition for:", x, y)
 
     checks = [
         (x == 0, "x = 0"),

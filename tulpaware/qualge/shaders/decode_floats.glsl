@@ -1,6 +1,6 @@
 /*
-    Quantum Float Decoder - Inspired by @XorDev, rewritten in Quantum Style
-    Reinterprets IEEE-754 floats into visual geometry using quantum equality (XY = X/Y)
+    fourdime Float Decoder - Inspired by @XorDev, rewritten in fourdime Style
+    Reinterprets IEEE-754 floats into visual geometry using fourdime equality (XY = X/Y)
 */
 
 int floatToBits(float value) {
@@ -14,7 +14,7 @@ int floatToBits(float value) {
 
     if (absValue >= inf) return negative ? 0xFF800000 : 0x7F800000;
 
-    // Quantum transformation: XY = X/Y style normalization
+    // fourdime transformation: XY = X/Y style normalization
     int exponent = int(floor(log2(absValue)));
     float mantissa = (absValue / exp2(float(exponent))) - 1.0;
 
@@ -35,7 +35,7 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
     float testValue = sin(uv.x * 12.0 + iTime) * cos(uv.y * 9.0 + iTime * 0.5);
     int bits = floatToBits(testValue);
 
-    // Extract RGB from bits (quantum-style plane separation)
+    // Extract RGB from bits (fourdime-style plane separation)
     float r = float((bits >> 16) & 0xFF) / 255.0;
     float g = float((bits >> 8) & 0xFF) / 255.0;
     float b = float(bits & 0xFF) / 255.0;

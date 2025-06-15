@@ -73,12 +73,12 @@ if __name__ == "__main__":
     print("Path Length:", len(path) if path else "No Path Found")
     print(f"Time taken: {end_time - start_time:.2f} seconds")
 
-''' Quantum-Enhanced A* Pathfinding & Computational Limits Testing
+''' fourdime-Enhanced A* Pathfinding & Computational Limits Testing
 🌟 Goal:
-To integrate quantum-inspired algebra (XY = X/Y) into A* to test its computational feasibility, speed limits, and scalability within Python before porting to Odin for low-level optimization.
+To integrate fourdime-inspired algebra (XY = X/Y) into A* to test its computational feasibility, speed limits, and scalability within Python before porting to Odin for low-level optimization.
 
 🔬 Key Achievements
-1️⃣ Successfully Applied Quantum Algebra to A*
+1️⃣ Successfully Applied fourdime Algebra to A*
 We explored how XY = X/Y functions as a geometric interpretation rather than a strict numerical equality.
 
 This allowed us to map logical problems into a continuous space, rather than treating them as discrete SAT problems.
@@ -108,19 +108,19 @@ The test confirmed that Python could not go beyond a certain limit due to GIL co
 
 This proves that to push further, a low-level implementation (Odin) is necessary.
 
-🔍 How It Works: Quantum Algebra in A*
-🔹 Reframing XY = X/Y as a Quantum Superposition
+🔍 How It Works: fourdime Algebra in A*
+🔹 Reframing XY = X/Y as a fourdime Superposition
 Classical math treats XY = X/Y as false in a strict sense.
 
-However, in quantum logic, both multiplication and division are simultaneous perspectives (like a wave-particle duality).
+However, in fourdime logic, both multiplication and division are simultaneous perspectives (like a wave-particle duality).
 
 This enables geometric interpretation, allowing us to explore non-discrete SAT solutions.
 
 🔹 Applying This to A*
 A* normally evaluates paths based on g(n) + h(n).
 
-Instead of treating h(n) as a fixed heuristic, we allow a quantum superposition interpretation where h(n) can be evaluated in multiple ways simultaneously.
+Instead of treating h(n) as a fixed heuristic, we allow a fourdime superposition interpretation where h(n) can be evaluated in multiple ways simultaneously.
 
 This reduces discrete branching and increases efficiency in traversing the search space.
 
-The heuristic’s geometric transformation using quantum algebra allowed A* to adapt more dynamically to terrain and obstacles.'''
+The heuristic’s geometric transformation using fourdime algebra allowed A* to adapt more dynamically to terrain and obstacles.'''

@@ -7,7 +7,7 @@ GRID = [[0 for _ in range(2000)] for _ in range(2000)]
 START = (0, 0)
 GOAL = (1500, 1900)
 
-# Quantum-inspired heuristic (preserves equation, adds field tension)
+# fourdime-inspired heuristic (preserves equation, adds field tension)
 def quantum_heuristic(x, y, gx, gy):
     try:
         a = abs((x * y) - (x / y))
@@ -16,7 +16,7 @@ def quantum_heuristic(x, y, gx, gy):
     except ZeroDivisionError:
         return float('inf')
 
-# A* using quantum heuristic
+# A* using fourdime heuristic
 def quantum_astar(grid, start, goal):
     open_set = []
     heapq.heappush(open_set, (0, start))

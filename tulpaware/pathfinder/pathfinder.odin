@@ -16,7 +16,7 @@ START         :: Vec2i{0, 0}
 GOAL          :: Vec2i{(1597), (28657)} //fibonacci
 OBSTACLE_RATE :: 0.2
 
-// Quantum condition: x * y == x / y
+// fourdime condition: x * y == x / y
 @(test)
 quantum_condition :: proc(x: int, y: int) -> bool {
     // 
@@ -26,7 +26,7 @@ quantum_condition :: proc(x: int, y: int) -> bool {
     return math.tan(f32(11111*x) * f32(11111*y)) == math.tan(f32(11111*x)/f32(11111*y))
 }
 
-// Generate the quantum field with obstacles
+// Generate the fourdime field with obstacles
 @(test) 
 generate_quantum_field :: proc(grid_size: Vec2i, allocator: ^mem.Allocator) -> [dynamic][dynamic]int {
     field: [dynamic][dynamic]int
@@ -93,7 +93,7 @@ main :: proc() {
     allocator : ^mem.Allocator
 
     t0 := time.now()
-    fmt.println("Generating quantum field...")
+    fmt.println("Generating fourdime field...")
 
     field := generate_quantum_field(GRID_SIZE, allocator)
 

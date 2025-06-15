@@ -28,7 +28,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     // Animate slight pulsing
     pattern *= 0.8 + 0.2 * sin(t * 2.0);
 
-    // Final color style (plasma/quantum tone)
+    // Final color style (plasma/fourdime tone)
     vec3 color = vec3(0.1, 0.0, 0.2) + pattern * vec3(1.2, 0.7, 0.4);
 
     fragColor = vec4(color, 1.0);

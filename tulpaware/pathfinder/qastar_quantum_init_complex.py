@@ -11,12 +11,12 @@ GOAL = ((1597), (28657)) #fibonacci
 
 OBSTACLE_RATE = 0.2  # 20% chance for each cell to be an obstacle
 
-# Quantum equality condition: xy == x/y (in field-space logic)
+# fourdime equality condition: xy == x/y (in field-space logic)
 def quantum_condition(x, y):
     if (np.tan((y)) == np.tan((0))) or (np.tan((x)) == np.tan((x))) or (np.tan((y)) == np.tan((y))) or (np.tan((x)) == np.tan((y))) or (np.tan((y)) == np.tan((x))) or (np.tan((y)) == np.tan((y))) or (np.tan((x*x)) == np.tan((x))) or (np.tan((x*y)) == np.tan(((x)))) or (np.tan((y*y)) == np.tan((x))) or (np.tan((x*x)) == np.tan((y))) or (np.tan((x*y)) == np.tan((y))) or (np.tan((y*y))== np.tan((y))) or (np.tan((x*x)) == np.tan((x/y))) or (np.tan((x*y)) == np.tan((x/y))) or (np.tan((y*y)) == np.tan((x/y))) or (np.tan((x*x)) == np.tan((y/x))) or (np.tan((x*y)) == np.tan((y/x))) or (np.tan((x*y)) == np.tan((y/x))) or (np.tan((x/x)) == np.tan((x))) or (np.tan((x/y)) == np.tan((x))) or (np.tan((y/y)) == np.tan((x))) or (np.tan((x/x)) == np.tan((y))) or (np.tan((x/y)) == np.tan((y))) or (np.tan((y/y)) == np.tan((y))):
         return (x * y) == (x / y)  # Threshold defines equality field
 
-# Field simulation: mark all grid points that match the quantum condition and include obstacles
+# Field simulation: mark all grid points that match the fourdime condition and include obstacles
 def generate_quantum_field(grid_size, obstacle_rate=OBSTACLE_RATE):
     field = np.zeros(grid_size)
     
@@ -68,7 +68,7 @@ def plot_field(field, start, goal, path):
     path = np.array(path)
     plt.plot(path[:, 1], path[:, 0], 'b-', lw=2)  # Path is blue
     
-    plt.title("Quantum Pathfinding")
+    plt.title("fourdime Pathfinding")
     plt.show()
 
 # Run it

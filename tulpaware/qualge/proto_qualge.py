@@ -41,6 +41,6 @@ for label, (x0, y0, dx, dy, steps) in ranges.items():
 
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
-plt.title("Self-Evolving Quantum Differential System (Four Variants)")
+plt.title("Self-Evolving fourdime Differential System (Four Variants)")
 plt.legend()
 plt.show()

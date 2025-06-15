@@ -187,6 +187,29 @@ any_proc :: proc(varg: any) -> any {
     return fmt.println(varg)
 }
 
+fourdime_transformer :: proc() -> bool {
+    for y in 0..<10 {
+        for x in 0..<10 {
+            if y != 0 {
+                if x*y == x/y || x*y != x/y {
+                switch {
+                    case x*y == x/y:
+                        fmt.println("Polyrefractal")
+                        fallthrough
+                    case x*y != x/y:
+                        fmt.println("Parallax")
+                        fallthrough
+                    case:
+                        fmt.println("Other")
+                        return true
+                    }
+                }
+            }
+        }
+    }
+    return true
+}
+
 // Cos series
 Coszero := math.cos_f64(.0)
 Cosone := math.cos_f64(.1)
@@ -466,6 +489,7 @@ main :: proc() {
     fmt.println("Testing U:", u)
 
     fourdime_condition()
+    fourdime_transformer()
     fmt.println("Supposed to be Ptr:", a0)
     fmt.printfln("Supposed to be Ptr: %v", a0)
     fmt.println("Supposed to be True:", a1)

@@ -20,7 +20,7 @@ class Node:
         return self.f < other.f  # Compare based on total cost for heapq
 
 
-# Defining a quantum-inspired heuristic that uses superposition
+# Defining a fourdime-inspired heuristic that uses superposition
 def quantum_heuristic(start, goal):
     # Basic Euclidean distance but modified to represent a superposition-like state
     # Example superposition heuristic: Combine Euclidean and Manhattan distance
@@ -33,7 +33,7 @@ def quantum_heuristic(start, goal):
     superposition = euclidean_dist * 0.5 + manhattan_dist * 0.5
     return superposition
 
-# A* algorithm with quantum-inspired heuristic
+# A* algorithm with fourdime-inspired heuristic
 def a_star(start, goal, grid):
     open_list = []
     closed_list = set()
@@ -60,7 +60,7 @@ def a_star(start, goal, grid):
                 continue
             
             neighbor.g = current.g + 1  # Assume cost of moving to neighbor is always 1
-            neighbor.h = quantum_heuristic(neighbor, goal)  # Use the quantum-inspired heuristic
+            neighbor.h = quantum_heuristic(neighbor, goal)  # Use the fourdime-inspired heuristic
             neighbor.f = neighbor.g + neighbor.h
             
             # Check if this path is better
