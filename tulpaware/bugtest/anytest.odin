@@ -124,7 +124,7 @@ main :: proc() {
 
     // Everything after this segfaults
     //fmt.println("Supposed to be Slice:", b1) //segfaults
-    //fmt.printfln("Supposed to be Slice: %v", b1) // This segfaults only after creating massive area of massive integers
+    fmt.printfln("Supposed to be Slice: %v", b1) // This segfaults only after creating massive area of massive integers
     fmt.println("Supposed to be Dynamic Array:", b2)
     //fmt.printfln("Supposed to be Dynamic Array: %v", b2)//segfaults
     fmt.println("Supposed to be Enum:", b3)
