@@ -1,0 +1,252 @@
+Numerical Vector:%!(EXTRA [[1, -1]])
+Numerical Vector: [[1, -1]]
+Numerical Vector: [1, -1]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [1, -1]
+Numerical Vector: 1
+Numerical Vector: -1
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector: 2
+Numerical Vector:%!(EXTRA [[0, 0]])
+Numerical Vector: [[0, 0]]
+Numerical Vector: [0, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [0, 0]
+Numerical Vector: 0
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[0, 0]])
+Numerical Vector: [[0, 0]]
+Numerical Vector: [0, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [0, 0]
+Numerical Vector: 0
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[10, 0]])
+Numerical Vector: [[10, 0]]
+Numerical Vector: [10, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [10, 0]
+Numerical Vector: 10
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[10, 10]])
+Numerical Vector: [[10, 10]]
+Numerical Vector: [10, 10]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [10, 10]
+Numerical Vector: 10
+Numerical Vector: 10
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[20, 0]])
+Numerical Vector: [[20, 0]]
+Numerical Vector: [20, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [20, 0]
+Numerical Vector: 20
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[20, 20]])
+Numerical Vector: [[20, 20]]
+Numerical Vector: [20, 20]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [20, 20]
+Numerical Vector: 20
+Numerical Vector: 20
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[30, 0]])
+Numerical Vector: [[30, 0]]
+Numerical Vector: [30, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [30, 0]
+Numerical Vector: 30
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[30, 30]])
+Numerical Vector: [[30, 30]]
+Numerical Vector: [30, 30]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [30, 30]
+Numerical Vector: 30
+Numerical Vector: 30
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[40, 0]])
+Numerical Vector: [[40, 0]]
+Numerical Vector: [40, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [40, 0]
+Numerical Vector: 40
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[40, 40]])
+Numerical Vector: [[40, 40]]
+Numerical Vector: [40, 40]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [40, 40]
+Numerical Vector: 40
+Numerical Vector: 40
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[50, 0]])
+Numerical Vector: [[50, 0]]
+Numerical Vector: [50, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [50, 0]
+Numerical Vector: 50
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[50, 50]])
+Numerical Vector: [[50, 50]]
+Numerical Vector: [50, 50]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [50, 50]
+Numerical Vector: 50
+Numerical Vector: 50
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[60, 0]])
+Numerical Vector: [[60, 0]]
+Numerical Vector: [60, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [60, 0]
+Numerical Vector: 60
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[60, 60]])
+Numerical Vector: [[60, 60]]
+Numerical Vector: [60, 60]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [60, 60]
+Numerical Vector: 60
+Numerical Vector: 60
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[70, 0]])
+Numerical Vector: [[70, 0]]
+Numerical Vector: [70, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [70, 0]
+Numerical Vector: 70
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[70, 70]])
+Numerical Vector: [[70, 70]]
+Numerical Vector: [70, 70]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [70, 70]
+Numerical Vector: 70
+Numerical Vector: 70
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[80, 0]])
+Numerical Vector: [[80, 0]]
+Numerical Vector: [80, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [80, 0]
+Numerical Vector: 80
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[80, 80]])
+Numerical Vector: [[80, 80]]
+Numerical Vector: [80, 80]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [80, 80]
+Numerical Vector: 80
+Numerical Vector: 80
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[90, 0]])
+Numerical Vector: [[90, 0]]
+Numerical Vector: [90, 0]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [90, 0]
+Numerical Vector: 90
+Numerical Vector: 0
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: false
+Numerical Vector: true
+Numerical Vector:%!(EXTRA [[90, 90]])
+Numerical Vector: [[90, 90]]
+Numerical Vector: [90, 90]
+Numerical Vector: 1
+Numerical Vector: %!(EXTRA 1)
+Numerical Vector: [90, 90]
+Numerical Vector: 90
+Numerical Vector: 90
+Numerical Vector: 0x7FFDA587B930
+Numerical Vector: 0x7FFDA587B940
+Numerical Vector: true
+Numerical Vector: true
